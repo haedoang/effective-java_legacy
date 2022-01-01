@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="정적 팩토리 메서드 작성하기" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-01-01T07:41:06" hostname="haedoangui-MacBookPro.local" time="0.042">
+  <properties/>
+  <testcase name="type : getType과 newType의 간결한 버전" classname="domain.MemberTest" time="0.042"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
