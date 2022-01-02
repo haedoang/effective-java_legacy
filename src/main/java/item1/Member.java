@@ -1,4 +1,4 @@
-package domain;
+package item1;
 
 /**
  * packageName : domain
