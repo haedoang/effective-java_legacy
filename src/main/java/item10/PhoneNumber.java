@@ -36,9 +36,4 @@ public class PhoneNumber {
         PhoneNumber that = (PhoneNumber) o;
         return areaCode == that.areaCode && prefix == that.prefix && lineNum == that.lineNum;
     }
-
-    @Override
-    public int hashCode() {
-        return Objects.hash(areaCode, prefix, lineNum);
-    }
 }
