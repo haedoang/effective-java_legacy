@@ -7,7 +7,7 @@ package item10;
  * date : 2022/01/11
  * description :
  */
-public class PhoneNumber {
+public class PhoneNumber implements Cloneable {
     private final short areaCode;
     private final short prefix;
     private final short lineNum;
@@ -38,5 +38,14 @@ public class PhoneNumber {
     @Override
     public String toString() {
         return String.format("%03d-%03d-%04d", areaCode, prefix, lineNum);
+    }
+
+    @Override
+    protected PhoneNumber clone() throws CloneNotSupportedException {
+        try {
+            return (PhoneNumber) super.clone();
+        } catch(CloneNotSupportedException e) {
+            throw new AssertionError();
+        }
     }
 }
